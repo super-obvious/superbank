@@ -6,7 +6,7 @@ type Transaction = {
   date: string
 };
 
-const transactions: Transaction[] = [
+export const transactions: Transaction[] = [
   {
     id: 'a7s6df',
     type: 'DEPOSIT',
